@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title> Fill Information</title>
+    <link rel="stylesheet" href="infoBuyer.css">
+</head>
+
+<body>
+    <div class="full-page">
+    	<img src="buyer_icon.jpg">
+    	<h1>Buyer</h1>
+    	<div class="box">
+        <form class="info-form">
+            <label for="fname" class="lab">First Name: </label>
+            <input type="text" id="fname" class="input-field" name="fname" disabled>
+            <label for="mname" class="lab">Middle Name: </label>
+            <input type="text" id="mname" class="input-field" name="mname" required><br>
+            <label for="lname" class="lab">Last Name: </label>
+            <input type="text" id="lname" class="input-field" name="lname" disabled><br><br>
+            <label for="mail" class="lab">Email: </label>
+            <input type="email" id="mail" class="input-field" name="mail" disabled>
+            <label for="mob" class="lab">Mobile No.: </label>
+            <input type="tel" id="mob" name="mob" class="input-field" pattern="[7-9]{1}-[0-9]{9}"><br><br> 
+            <label for="bday" class="lab">Birth Date: </label>
+            <input type="date" id="bday" class="input-field" name="bday" required>
+            <label for="gst" class="lab">GST No.: </label>
+            <input type="text" id="gst" name="gst" class="input-field" required><br><br>
+            <label for="addr" class="lab">Address:</label><br>
+            <label for="state" class="lab">State: </label>
+            ###<input type="text" class="input-field" name="" required>
+            <label for="district" class="lab">District: </label>
+            ###<input type="text" class="input-field" name="" required><br>
+            <label for="taluka" class="lab">Taluka: </label>
+            ###<input type="text" class="input-field" name="" required>
+            <label for="village" class="lab">Village: </label>
+            ###<input type="text" class="input-field" name="" required><br><br>
+            <button type="submit" class="button">Proceed</button>
+
+        </form>
+		</div>
+    </div>
+    </body>
+</html>
